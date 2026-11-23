@@ -1,0 +1,13 @@
+# Secrets: never commit these
+.env
+.env.local
+.env*.local
+
+# Dependencies and build output
+node_modules/
+.next/
+out/
+
+# OS / editor files
+.DS_Store
+.claude/
